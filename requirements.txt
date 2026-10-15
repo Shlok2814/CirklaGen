@@ -1,0 +1,14 @@
+streamlit
+google-genai
+pillow
+pillow-heif
+rembg
+opencv-python
+numpy
+torch
+transformers
+pyyaml
+python-dotenv
+tenacity
+pytest
+pandas

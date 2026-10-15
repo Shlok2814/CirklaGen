@@ -1,0 +1,192 @@
+{
+  "product": {
+    "name": "Cirkla Molded Fiber Meat Tray",
+    "brand": "Cirkla",
+    "material": "beige molded-fiber",
+    "size_in": "10.28 x 8.08 in",
+    "size_label": "#5",
+    "retailer": "Trader Joe's",
+    "cuts": [
+      {
+        "name": "Tenderloin Steak",
+        "net_weight": "12 OZ (340g)",
+        "label_title": "ORGANIC GRASS FED ANGUS BEEF TENDERLOIN STEAK"
+      },
+      {
+        "name": "Top Sirloin Steak",
+        "net_weight": "8 OZ (227g)",
+        "label_title": "ORGANIC GRASS FED ANGUS BEEF TOP SIRLOIN STEAK"
+      },
+      {
+        "name": "Ribeye Steak Boneless",
+        "net_weight": "Variable / 10-14 OZ",
+        "label_title": "ORGANIC GRASS FED ANGUS BEEF RIBEYE STEAK BONELESS"
+      },
+      {
+        "name": "New York Strip Steak Boneless",
+        "net_weight": "Variable / 10-12 OZ",
+        "label_title": "ORGANIC GRASS FED ANGUS BEEF NY STRIP STEAK BONELESS"
+      }
+    ]
+  },
+  "geometry": {
+    "exterior_color": "natural beige unbleached molded plant fiber pulp",
+    "rim": "wide flat perimeter sealing flange with uniform thickness for hermetic film sealing",
+    "base_panel": "rectangular recessed base panel with smooth rounded corner transitions",
+    "wall_ribs": "vertical scalloped ribs and structural fluting on the walls providing rigidity",
+    "corner_features": "distinctive pyramid features in the corners for stacking strength and structural support",
+    "liner": "smooth glossy white liner inside the cavity protecting fiber from moisture and fluids"
+  },
+  "markings": {
+    "embossed_logo": "embossed CIRKLA mark",
+    "location": "rectangular recessed base panel on the bottom of the tray",
+    "additional_text": "Cirkla branding and patent pending text debossed into the base panel floor"
+  },
+  "as_sold": {
+    "film": "tight clear modified atmosphere packaging (MAP) barrier film heat-sealed flush to the perimeter rim flange",
+    "contents": "raw fresh USDA Organic Grass Fed Angus Beef steak resting inside on an absorbent meat pad",
+    "label_sleeve": "vertical paper label wrap-around sleeve positioned over the left side of the tray featuring 'TRADER JOE'S', 'ORGANIC GRASS FED ANGUS BEEF', cut title in bold red, steer silhouette, and USDA Organic seal, leaving right half exposed to show marbled steak",
+    "glare_notes": "subtle, realistic specular glares and light streaks reflecting cold overhead store fluorescent tubes across the taut transparent film"
+  },
+  "must_keep": [
+    "beige molded-fiber exterior with visible natural organic pressed fiber texture",
+    "rectangular recessed base panel with rounded transitions",
+    "vertical scalloped ribs along all four interior and exterior cavity walls",
+    "pyramid structural features molded into each of the four tray corners",
+    "smooth glossy white moisture-barrier liner inside the cavity",
+    "embossed CIRKLA mark on the base",
+    "size #5 dimensions (approx 10.28 x 8.08 inches, depth ~1.7 inches)",
+    "clear high-barrier MAP packaging film sealed tight flush to the rim",
+    "authentic Trader Joe's paper label sleeve covering left half of package",
+    "realistic hand scale and natural finger grip holding the tray"
+  ],
+  "must_not": [
+    "pen marks or handwritten ink (e.g., no 'ITC' ink on tray exterior)",
+    "white or gray exterior (exterior must strictly remain natural beige molded fiber)",
+    "extra compartments or divider walls (tray is single cavity only)",
+    "changed rim thickness, warped edges, or jagged perimeter flange",
+    "garbled embossing, gibberish lettering, or hallucinatory sleeve text",
+    "floating tray or physically impossible hand grip",
+    "wrong scale against the hand (tray must be proportional to 10.28 x 8.08 in size #5)"
+  ],
+  "scale": {
+    "hand_to_tray_notes": "The tray measures 10.28 x 8.08 inches (#5 size). An adult human hand spans roughly 1/3 to 1/2 of the tray width. Fingers wrap naturally around the wide flat rim or support the underside base, never bending or warping the rigid pulp structure."
+  },
+  "angle_views": {
+    "front": "Shows customer holding tray at chest level facing camera; paper sleeve on left, fresh raw beef on right, tight clear film with overhead light reflections, and natural beige rim perimeter.",
+    "side": "Shows the 1.7-inch wall profile, vertical scalloped ribs, uniform rim thickness, beige fiber underside, and fingers supporting the tray edges.",
+    "top": "Full planar view showing rectangular footprint with rounded corners, glossy white liner under meat cut, sleeve typography, and rim sealing surface.",
+    "pov": "First-person perspective looking down at two hands holding the meat package directly above a shopping cart or refrigerated grocery shelf.",
+    "closeup": "Macro shot focusing on molded fiber grain texture, embossed CIRKLA lettering and patent text on base, crisp typography on paper sleeve, or marble fat grain in the beef cut."
+  },
+  "scene_defaults": {
+    "camera": "candid phone photo, modern smartphone camera snapshot (24-28mm equivalent lens), realistic shallow depth of field, authentic consumer mobile photo",
+    "lighting": "cold fluorescent store light, overhead retail supermarket commercial strip tubes casting specular glare bars across the tight plastic MAP film, with authentic soft ambient bounce from the white refrigerated deck and subtle contact shadows under fingers and tray",
+    "imperfections": "slight handheld tilt (2 to 8 degrees), natural phone camera optical softness, authentic non-studio mobile exposure, creased everyday casual clothing",
+    "skin": "natural unretouched skin, authentic uneven skin tone, visible pores, slight shine on forehead and nose, flyaway hair, natural fingernails without airbrushing",
+    "framing": "candid handheld framing in front of the consistent Trader Joe's refrigerated multi-tier meat display case with authentic signage ('RIBEYE Steak', 'Center CUT FILET', and 'FEARLESS FLYER' red-and-white price tags), natural shopper browsing posture, consistent refrigerated meat aisle background"
+  },
+  "shot_types": {
+    "front_chest": {
+      "pose": "Candid shopper browsing in front of the refrigerated meat display case, holding the tray naturally at chest or waist height while inspecting meat cuts",
+      "camera_distance": "Medium candid shot (about 3 to 4 feet away)",
+      "tray_orientation": "Held naturally tilted slightly back toward camera (approx 15-30 degrees) showcasing packaging face",
+      "what_the_camera_sees": "Shopper holding tray naturally, authentic Trader Joe's paper label sleeve, fresh raw marbled steak, glossy film sheen, and consistent refrigerated meat cooler with 'RIBEYE Steak' and 'Center CUT FILET' signage in the background"
+    },
+    "pov_hands": {
+      "pose": "First-person point-of-view of shopper's hands extending into frame holding the meat package",
+      "camera_distance": "Close-medium POV (about 1.5 to 2 feet away)",
+      "tray_orientation": "Held horizontally tilted slightly upward toward viewer's eye line",
+      "what_the_camera_sees": "Shopper's hands gripping tray edges, clear sleeve graphics, raw beef marbling under tight film, and refrigerated display below"
+    },
+    "side_profile": {
+      "pose": "Shopper viewed from a 45-degree angle holding tray while inspecting it",
+      "camera_distance": "Medium-close (about 2.5 to 3.5 feet away)",
+      "tray_orientation": "Angled at 45 degrees revealing side wall depth and scalloped ribs",
+      "what_the_camera_sees": "Side profile of tray with scalloped ribs and rim thickness, hand fingers supporting base, shopper profile, and store shelves"
+    },
+    "cart_topdown": {
+      "pose": "Shopper placing the packaged meat tray into a red wire Trader Joe's shopping cart",
+      "camera_distance": "High-angle top-down (about 2 to 3 feet directly above cart)",
+      "tray_orientation": "Flat horizontal in cart or angled against other groceries",
+      "what_the_camera_sees": "Top-down view of tray packaging, glossy film highlight, cart wire mesh, other groceries, and shopper's hand releasing grip"
+    },
+    "closeup_hands": {
+      "pose": "Close-up macro shot of hands holding tray, thumbs resting firmly on the wide rim flange",
+      "camera_distance": "Close-up macro (about 1 to 1.5 feet away)",
+      "tray_orientation": "Tilted 20 degrees showcasing corner pyramid features and embossed markings",
+      "what_the_camera_sees": "High detail on molded fiber texture, thumb grip on rim, clear film sheen, label text, and corner structural pyramids"
+    },
+    "stepped_back_wide": {
+      "pose": "Shopper standing in the supermarket aisle viewed from a distance, positioned in the lower third of the composition holding the tray at waist or chest level",
+      "camera_distance": "Stepped-back wide shot (about 5 to 8 feet away)",
+      "tray_orientation": "Held horizontally or slightly angled in the lower third of frame",
+      "what_the_camera_sees": "Full upper-body and torso of shopper in lower third of frame, expansive meat aisle shelving above, refrigerated meat case, aisle floor, and overhead store lighting"
+    },
+    "seated_in_cart_view": {
+      "pose": "Camera viewing from inside the shopping cart child seat or basket looking across and up as the tray is inspected or placed into the cart",
+      "camera_distance": "Medium-close low-angle perspective (about 2 to 3 feet from inside cart)",
+      "tray_orientation": "Tilted forward slightly above cart wire handlebar and basket perimeter",
+      "what_the_camera_sees": "Red wire cart rim and handlebar in lower foreground, shopper holding the Cirkla tray package, store shelves behind"
+    },
+    "holding_and_pointing": {
+      "pose": "One hand holding the tray firmly by the rim or underside, and the second hand pointing to or touching the Trader Joe's paper label sleeve",
+      "camera_distance": "Medium shot (about 2.5 to 3.5 feet away)",
+      "tray_orientation": "Held at chest height tilted 15-25 degrees toward camera to highlight paper label sleeve",
+      "what_the_camera_sees": "One hand gripping tray rim, index finger of other hand resting on label typography, clear view of raw steak marbling and USDA Organic badge"
+    },
+    "off_center_candid": {
+      "pose": "Shopper positioned casually in the left third or right third of the frame, holding tray while browsing",
+      "camera_distance": "Medium candid shot (about 3 to 4.5 feet away)",
+      "tray_orientation": "Held naturally at waist/chest height, shifted off-center following rule-of-thirds",
+      "what_the_camera_sees": "Off-center subject in left or right third, extensive view of supermarket aisle and shelves filling the opposite two-thirds of frame"
+    },
+    "tilted_handheld": {
+      "pose": "Authentic candid handheld snapshot with a deliberate 5 to 15 degree camera tilt (Dutch angle), shopper holding tray in aisle",
+      "camera_distance": "Medium shot (about 3 feet away)",
+      "tray_orientation": "Tilted along diagonal camera axis, showing dynamic packaging perspective",
+      "what_the_camera_sees": "Dynamic diagonal composition with 5-15 degree handheld tilt, shopper holding tray, misaligned shelf edges and store lights"
+    },
+    "cropped_edges": {
+      "pose": "Casual framing with edges intentionally cropped (shopper's shoulder, elbow, or outer hand partly out of frame)",
+      "camera_distance": "Medium-close candid snapshot (about 2.5 to 3.5 feet away)",
+      "tray_orientation": "Held naturally near frame edge",
+      "what_the_camera_sees": "Partial crop where shopper's hand or shoulder extends beyond frame boundary, authentic unposed snapshot aesthetic"
+    },
+    "shelf_gaze": {
+      "pose": "Shopper looking down at the tray or looking across at the refrigerated shelf rather than at the camera, absorbed in inspecting meat options",
+      "camera_distance": "Medium candid shot (about 3 to 4 feet away)",
+      "tray_orientation": "Tilted toward shopper's gaze line",
+      "what_the_camera_sees": "Three-quarter candid profile of shopper looking at tray or shelf tags, tray packaging held at chest level, supermarket aisle context"
+    }
+  },
+  "framing_and_pose_variety": {
+    "subject_positions": [
+      "left_third (shopper positioned off-center in the left third of the frame)",
+      "right_third (shopper positioned off-center in the right third of the frame)",
+      "lower_third (shopper positioned in the lower third in stepped-back wide view)"
+    ],
+    "handheld_tilts": [
+      "5 degree handheld camera tilt",
+      "8 degree handheld camera tilt",
+      "12 degree handheld camera tilt",
+      "15 degree handheld camera tilt"
+    ],
+    "cropped_edges": [
+      "shoulder partly cropped out of frame",
+      "hand partly cropped out of frame",
+      "outer arm and elbow partly cropped out of frame"
+    ],
+    "gaze_directions": [
+      "looking at the tray rather than the camera",
+      "looking across at the refrigerated shelf price tags rather than the camera",
+      "looking down at the tray rather than the camera"
+    ],
+    "hand_poses": [
+      "one hand holding the tray and one hand pointing or touching the label",
+      "two hands holding tray edges firmly at chest level",
+      "single hand supporting tray underside with fingers curved over rim",
+      "both hands gripping side flanges inspecting package"
+    ]
+  }
+}

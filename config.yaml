@@ -1,0 +1,79 @@
+# CirklaGen Configuration
+# All model names, thresholds, paths, and flags come from here.
+
+# Generative AI Models
+text_model: "gemini-3.5-flash-lite"
+image_model: "imagen-3.0-generate-002"
+vision_model: "gemini-3.5-flash-lite"
+rembg_model: "u2net"
+
+# Quality Assurance & Variations
+qa_threshold: 0.6
+variations_default: 4
+phash_diversity_threshold: 8
+
+# Output Locations
+output_dir: "outputs/runs"
+
+# Multi-model bakeoff comparison list
+bakeoff_models:
+  - "imagen-3.0-generate-002"
+  - "gemini-2.5-flash"
+  - "fal-ai/flux/dev"
+
+# Candid Smartphone Camera Finishing Defaults
+finishing_defaults:
+  grain: 0.15
+  vignette: 0.20
+  softness: 0.10
+  jpeg_quality: 85
+  tilt_deg: 1.5
+  chromatic_aberration: 0.15
+  highlight_bloom: 0.20
+  off_center_crop: 0.15
+  saturation: 0.90
+  uneven_white_balance: 0.15
+  motion_blur: 0.15
+  realism_pass: true
+  match_plate_lighting: false
+  relight_strength: 0.35
+  shadow_strength: 0.25
+
+# Execution Modes
+mock_mode: false
+manual_mode: false
+
+# Anti-Drift & Tray Fidelity Flags
+better_reference_selection: true
+strict_must_keep: true
+auto_composite_fallback: true
+realism_pass: true
+match_plate_lighting: false
+
+# Filesystem Paths
+paths:
+  knowledge_file: "knowledge/product.json"
+  expander_prompt: "prompts/expander_system.txt"
+  trays_dir: "assets/trays"
+  trays_work_dir: "assets/trays_work"
+  raw_trays_dir: "assets/raw_trays"
+  plates_dir: "assets/plates"
+  plates_raw_dir: "assets/plates_raw"
+  persons_dir: "assets/persons"
+  packaged_dir: "assets/packaged"
+  reference_dir: "assets/reference"
+  runs_dir: "outputs/runs"
+  examples_dir: "outputs/examples"
+  logs_dir: "outputs/logs"
+  log_file: "outputs/logs/cirklagen.log"
+
+# Sleeve QA Verification Threshold
+sleeve_similarity_threshold: 0.70
+
+# API Resilience Settings
+resilience:
+  max_retries: 5
+  initial_backoff_seconds: 2.0
+  max_backoff_seconds: 32.0
+  backoff_multiplier: 2.0
+  timeout_seconds: 90.0

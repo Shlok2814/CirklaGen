@@ -1,0 +1,7 @@
+# Why Train a LoRA? (Phase 2 Architectural Justification)
+
+> **Specification Note**: This document summarizes the technical justification for fine-tuning a Low-Rank Adaptation (LoRA) on the Cirkla tray in Phase 2. No models have been trained yet; this establishes the rationale for future fine-tuning.
+
+---
+
+While reference-guided generation (supplying 2D tray photos into an image-edit or inpainting model) works well for standard angles, it fundamentally relies on in-context cross-attention over flat reference pixels. When pushed to complex retail poses—such as customer fingers gripping the rim flange, high-angle shopping cart perspectives, or harsh specular highlights under refrigerated display lighting—reference-only models frequently suffer from attention bleeding, perspective distortion, or geometric hallucination (flattening the vertical scalloped wall ribs, smoothing away structural corner pyramids, or drifting from unbleached natural beige fiber into generic white styrofoam). Fine-tuning a targeted packaging LoRA (`cirkla_tray5`) internalizes the exact 3D geometric manifold, structural fluting depth, corner reinforcement features, and tactile pressed-pulp texture directly into the model's weight matrices. This enables the diffusion backbone to natively generate the Cirkla tray across arbitrary camera angles, hand occlusions, and dynamic lighting conditions with consistent physical fidelity, eliminating the perspective warping and copy-paste lighting mismatches inherent to purely reference-conditioned pipelines.

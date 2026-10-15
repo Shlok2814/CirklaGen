@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+.venv*/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Scratch / Temp
+scratch/
+
+# Outputs
+outputs/generated/*
+outputs/runs/*
+outputs/examples/*
+outputs/logs/*
+outputs/test_fallback/*
+!outputs/logs/.gitkeep
+!outputs/generated/.gitkeep
+!outputs/runs/.gitkeep
+!outputs/examples/.gitkeep
+
+# OS generated
+.DS_Store
+Thumbs.db
