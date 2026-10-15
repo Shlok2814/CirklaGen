@@ -6,9 +6,7 @@
 
 **CirklaGen** is an AI-powered visual generation system that transforms short text prompts into photorealistic, candid smartphone-style photos of customers holding an authentic **Cirkla molded-fiber meat tray** inside a **Trader Joe's meat aisle**. Real aisle photos are reused as background plates to ensure the store environment stays consistent.
 
-LINK-https://cirklagen.streamlit.app/
-
-> 🌐 **Live Web App**: [https://cirklagen.streamlit.app](https://cirklagen.streamlit.app) (Streamlit Community Cloud)
+🌐 **Live Web App**: [https://cirklagen.streamlit.app](https://cirklagen.streamlit.app) (Streamlit Community Cloud)
 
 ---
 
