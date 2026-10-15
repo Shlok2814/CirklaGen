@@ -1,6 +1,31 @@
 # CirklaGen
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cirklagen.streamlit.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Shlok2814%2FCirklaGen-blue?logo=github)](https://github.com/Shlok2814/CirklaGen)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+
 **CirklaGen** is an AI-powered visual generation system that transforms short text prompts into photorealistic, candid smartphone-style photos of customers holding an authentic **Cirkla molded-fiber meat tray** inside a **Trader Joe's meat aisle**. Real aisle photos are reused as background plates to ensure the store environment stays consistent.
+
+> 🌐 **Live Web App**: [https://cirklagen.streamlit.app](https://cirklagen.streamlit.app) (Streamlit Community Cloud)
+
+---
+
+## 🚀 Streamlit Community Cloud Deployment
+
+To deploy this repository live on Streamlit Cloud:
+
+1. Sign in to [share.streamlit.io](https://share.streamlit.io) with your GitHub account.
+2. Click **Create app** (or **New app**).
+3. Fill in the repository settings:
+   - **Repository**: `Shlok2814/CirklaGen`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+   - **App URL**: `cirklagen` (gives `https://cirklagen.streamlit.app`)
+4. Click **Advanced settings...** -> **Secrets** and enter:
+   ```toml
+   GEMINI_API_KEY = "your_google_gemini_api_key_here"
+   ```
+5. Click **Deploy!** Streamlit Cloud installs `packages.txt` and `requirements.txt` automatically.
 
 ---
 

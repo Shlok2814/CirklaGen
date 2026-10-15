@@ -374,3 +374,17 @@ python scripts/bakeoff.py --prompt "holding organic tenderloin in aisle"
 # 6. Verify Output Region Lock Integrity
 python scripts/check_output.py outputs/runs/latest/img_0_finished.png
 ```
+
+---
+
+## 9. STREAMLIT CLOUD PRODUCTION DEPLOYMENT
+
+1. Sign in to [share.streamlit.io](https://share.streamlit.io).
+2. Connect repository: `Shlok2814/CirklaGen` (branch `main`, file `app.py`).
+3. Under **Advanced Settings > Secrets**, configure:
+   ```toml
+   GEMINI_API_KEY = "your_google_gemini_api_key_here"
+   ```
+4. Streamlit Cloud automatically provisions Debian system packages via `packages.txt` (`libgl1`, `libglib2.0-0`) and installs Python wheels via `requirements.txt`.
+5. Public App URL: `https://cirklagen.streamlit.app`
+

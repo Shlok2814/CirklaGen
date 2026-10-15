@@ -177,6 +177,13 @@ def load_config(
         data["mock_mode"] = env_mock.lower() in ("1", "true", "yes")
 
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
+    if not api_key:
+        try:
+            import streamlit as st
+            if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
+                api_key = str(st.secrets["GEMINI_API_KEY"]).strip()
+        except Exception:
+            pass
 
     # Fail with a clear message if GEMINI_API_KEY is missing (unless mock_mode is active)
     is_mock = data.get("mock_mode", False)
@@ -192,9 +199,17 @@ def load_config(
 
 
 def get_api_key() -> Optional[str]:
-    """Retrieves GEMINI_API_KEY from environment variables."""
+    """Retrieves GEMINI_API_KEY from environment variables or Streamlit secrets."""
     load_dotenv()
-    return os.getenv("GEMINI_API_KEY")
+    key = os.getenv("GEMINI_API_KEY")
+    if not key:
+        try:
+            import streamlit as st
+            if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
+                key = str(st.secrets["GEMINI_API_KEY"]).strip()
+        except Exception:
+            pass
+    return key
 
 
 if __name__ == "__main__":
